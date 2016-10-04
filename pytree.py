@@ -7,9 +7,13 @@ from os.path import isdir, isfile, dirname, abspath
 
 # YOUR CODE GOES here
 
-INTERMEDIATE_LEVEL = '│   '.encode('utf-8').decode('latin-1')
-LAST_LEVEL = '├── '.encode('utf-8').decode('latin-1')
-LAST_LEVEL_AND_ITEM = '└── '.encode('utf-8').decode('latin-1')
+INTERMEDIATE_LEVEL = '│   '
+LAST_LEVEL = '├── '
+LAST_LEVEL_AND_ITEM = '└── '
+
+# INTERMEDIATE_LEVEL = '│   '.encode('utf-8').decode('latin-1')
+# LAST_LEVEL = '├── '.encode('utf-8').decode('latin-1')
+# LAST_LEVEL_AND_ITEM = '└── '.encode('utf-8').decode('latin-1')
 
 # INTERMEDIATE_LEVEL = "|   "
 INTERMEDIATE_LEVEL2 = "    "
